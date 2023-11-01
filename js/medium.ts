@@ -6,4 +6,17 @@
 // "AaabBC"	{"a": 3, "b": 2, "c": 1}
 // "112233"	{"1": 2, "2": 2, "3": 2}
 
-function characterFrequency(str: string): object {}
+function characterFrequency(str: string): object {
+  const preparedString = str.toLowerCase().split("");
+  preparedString.forEach((char: string) => {
+    let count = 0;
+    preparedString.find(char??) && count++;
+
+    const result = { char: count };
+
+    return result;
+  });
+  console.log(preparedString);
+}
+
+characterFrequency("Hola");
