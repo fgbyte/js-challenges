@@ -6,7 +6,4 @@
 // "AaabBC"	{"a": 3, "b": 2, "c": 1}
 // "112233"	{"1": 2, "2": 2, "3": 2}
 
-
-function characterFrequency(str: string): object {
-    
-}
+function characterFrequency(str: string): object {}
